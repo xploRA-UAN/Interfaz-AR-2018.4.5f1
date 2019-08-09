@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Sin_nombre_odontologia1" size="100.000000 62.431801" />
+    <ImageTarget name="por_lo_nuestro_modelo1" size="100.000000 29.761906" />
+    <ImageTarget name="intervencion_a_panama_modelo1" size="100.000000 35.074821" />
+    <ImageTarget name="odontologia_al_servicio_del_hombre_modelo11" size="100.000000 62.677303" />
+    <ImageTarget name="mural_setuan_1_complato2" size="100.000000 40.887276" />
+    <ImageTarget name="muro_igualdad_en_el_comercio_modelo31" size="100.000000 61.573135" />
+    <ImageTarget name="TURI1" size="100.000000 62.641510" />
+    <ImageTarget name="muro_del_sol_modelo2" size="100.000000 45.871719" />
+    <ImageTarget name="Muro_del_mar2_modelo2" size="100.000000 34.637939" />
+    <ImageTarget name="muro_del_espacio" size="100.000000 28.359375" />
+    <ImageTarget name="muro_del_fuego_modelo22" size="100.000000 35.000568" />
+    <ImageTarget name="muro_del_aire_modelo22" size="100.000000 36.259331" />
+    <ImageTarget name="muro_del_agua_modelo22" size="100.000000 34.945717" />
+    <ImageTarget name="dedicatoria_al_pueblo_y_a_los_estudiantes" size="100.000000 39.026646" />
+    <ImageTarget name="muro_de_la_tierra_modelo12" size="100.000000 34.504791" />
+    <ImageTarget name="muro_de_la_carne_modelo21" size="100.000000 35.253269" />
+    <ImageTarget name="muro_apocalipsis_modelo21" size="100.000000 70.507957" />
+    <ImageTarget name="mural_setuan_2_completo_21" size="100.000000 58.518520" />
+    <ImageTarget name="Mural_Medicina_Izquierda" size="100.000000 62.179485" />
+    <ImageTarget name="mural_principal_medicina_der_modelo1" size="100.000000 84.580498" />
+    <ImageTarget name="medicina_central" size="100.000000 49.562450" />
+    <ImageTarget name="escudo_de_la_uan_modelo1" size="100.000000 119.896645" />
+    <ImageTarget name="El_origen_de_nuestra_cultura2_completo1" size="100.000000 49.539333" />
+    <ImageTarget name="el_hombre_y_la_Quimica_modelo2" size="100.000000 69.642860" />
+    <ImageTarget name="El_Hombre_y_la_Ciencia" size="100.000000 78.943153" />
+    <ImageTarget name="mural_prepa1_modelo1" size="100.000000 31.005859" />
+    <ImageTarget name="DERECHO1" size="100.000000 62.867382" />
+  </Tracking>
+</QCARConfig>
