@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Github/Interfaz-AR-2018.4.5f1/ExploRAUAN.apk
+D:/Github/Interfaz-AR-2018.4.5f1/ExploRAUAN2.apk
 SceneListBegin?
 Assets/Scenes/Bienvenida.unity
 Assets/Scenes/Inicio.unity
