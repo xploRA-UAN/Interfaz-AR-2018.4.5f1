@@ -1,5 +1,5 @@
 /*==============================================================================
-Copyright (c) 2019 PTC Inc. All Rights Reserved.
+Copyright (c) 2017 PTC Inc. All Rights Reserved.
 
 Copyright (c) 2010-2014 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
@@ -7,6 +7,7 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
+using UnityEngine.UI;
 using Vuforia;
 
 /// <summary>
@@ -21,6 +22,9 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     public Transform panelTarget;
     public Transform panelLocked;
+    public Button play;
+    public Button pause;
+    public GameObject panel;
 
     protected TrackableBehaviour mTrackableBehaviour;
     protected TrackableBehaviour.Status m_PreviousStatus;
@@ -57,17 +61,18 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     {
         m_PreviousStatus = previousStatus;
         m_NewStatus = newStatus;
-        
 
         if (newStatus == TrackableBehaviour.Status.DETECTED ||
             newStatus == TrackableBehaviour.Status.TRACKED ||
             newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
+            //Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
             OnTrackingFound();
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)
         {
+            //Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
             OnTrackingLost();
         }
         else
@@ -76,6 +81,28 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             // Vuforia is starting, but tracking has not been lost or found yet
             // Call OnTrackingLost() to hide the augmentations
             OnTrackingLost();
+        }
+    }
+
+    public void AudioPlay()
+    {
+        if (GetComponentInChildren<AudioSource>().isPlaying == false &&
+            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
+
+        {
+            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Play();
+            pause.gameObject.SetActive(true);
+            play.gameObject.SetActive(false);
+        }
+    }
+
+    public void AudioPause()
+    {
+        if (GetComponentInChildren<AudioSource>().isPlaying)
+        {
+            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Pause();
+            pause.gameObject.SetActive(false);
+            play.gameObject.SetActive(true);
         }
     }
 
@@ -112,6 +139,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
         panelTarget.gameObject.SetActive(false);
         panelLocked.gameObject.SetActive(true);
+        panel.gameObject.SetActive(true);
     }
 
 
@@ -146,4 +174,3 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #endregion // PROTECTED_METHODS
 }
-
