@@ -30,6 +30,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected TrackableBehaviour.Status m_PreviousStatus;
     protected TrackableBehaviour.Status m_NewStatus;
 
+    private AudioSource previousAudio;
+    private AudioSource currentAudio;
+    private GameObject previousPanel;
+    private GameObject currentPanel;
+    private GameObject panelName = GameObject.Find("Distance");
+
     #endregion // PROTECTED_MEMBER_VARIABLES
 
     #region UNITY_MONOBEHAVIOUR_METHODS
@@ -86,11 +92,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     public void AudioPlay()
     {
-        if (GetComponentInChildren<AudioSource>().isPlaying == false &&
+        if (currentAudio.isPlaying == false &&
             mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
 
         {
-            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Play();
+            currentAudio.Play();
             pause.gameObject.SetActive(true);
             play.gameObject.SetActive(false);
         }
@@ -98,7 +104,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     public void AudioPause()
     {
-        if (GetComponentInChildren<AudioSource>().isPlaying)
+        if (currentAudio.isPlaying)
         {
             mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Pause();
             pause.gameObject.SetActive(false);
@@ -131,15 +137,62 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Audio play
         if (mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
         {
-            if (!GetComponentInChildren<AudioSource>().isPlaying)
+            if (currentAudio == null)
             {
-                mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Play();
+                currentAudio = mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>();
+
+                if (!currentAudio.isPlaying)
+                {
+                    currentAudio.Play();
+                }
+            }
+            else if (currentAudio == mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>())
+            {
+                if (!currentAudio.isPlaying)
+                {
+                    currentAudio.Play();
+                }
+            }
+            else if (currentAudio != null &&
+                currentAudio != mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>())
+            {
+                previousAudio = currentAudio;
+                currentAudio = mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>();
+                previousAudio.Stop();
+
+                if (!currentAudio.isPlaying)
+                {
+                    currentAudio.Play();
+                }
             }
         }
 
         panelTarget.gameObject.SetActive(false);
         panelLocked.gameObject.SetActive(true);
-        panel.gameObject.SetActive(true);
+        if (currentPanel == null)
+        {
+            currentPanel = panel;
+            panelName.GetComponent<Text>().text = currentPanel.name;
+            currentPanel.gameObject.SetActive(true);
+        }
+        else if (currentPanel == panel)
+        {
+            currentPanel.gameObject.SetActive(true);
+        }
+        else if(currentPanel != null && currentPanel != panel)
+        {
+            currentPanel.gameObject.SetActive(false);
+            previousPanel = currentPanel;
+            previousPanel.gameObject.SetActive(false);
+            currentPanel = panel;
+            panelName.GetComponent<Text>().text = currentPanel.name;
+            currentPanel.gameObject.SetActive(true);
+        }
+        else
+        {
+            previousPanel.gameObject.SetActive(false);
+            currentPanel.gameObject.SetActive(false);
+        }
     }
 
 
@@ -162,11 +215,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             component.enabled = false;
 
         // Audio stop
-        if (mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
+       /* if (mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
         {
             //Funcion para detener el audio
             mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Stop();
-        }
+        }*/
 
         panelTarget.gameObject.SetActive(true);
         panelLocked.gameObject.SetActive(false);
