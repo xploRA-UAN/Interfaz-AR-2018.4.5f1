@@ -34,7 +34,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     private AudioSource currentAudio;
     private GameObject previousPanel;
     private GameObject currentPanel;
-    private GameObject panelName = GameObject.Find("Distance");
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
@@ -172,7 +171,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         if (currentPanel == null)
         {
             currentPanel = panel;
-            panelName.GetComponent<Text>().text = currentPanel.name;
             currentPanel.gameObject.SetActive(true);
         }
         else if (currentPanel == panel)
@@ -185,7 +183,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             previousPanel = currentPanel;
             previousPanel.gameObject.SetActive(false);
             currentPanel = panel;
-            panelName.GetComponent<Text>().text = currentPanel.name;
             currentPanel.gameObject.SetActive(true);
         }
         else
