@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Particulas\ParticulasMuroMar\UnderwaterManager.cs" />
      <Compile Include="Assets\Scripts\ActivateInfo.cs" />
      <Compile Include="Assets\Scripts\Coordinates.cs" />
      <Compile Include="Assets\Scripts\Destroy.cs" />
@@ -73,21 +74,32 @@
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUVNV12_YUVNV21.cginc" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Desktop-Transparent.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\XploraUAN.xml" />
      <None Include="Assets\StreamingAssets\Vuforia\PaseoArtesAmadoNervo.xml" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Terrain.shader" />
      <None Include="Assets\StreamingAssets\Vuforia\50anhos.xml" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Mobile.shader" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Mobile-Fast.shader" />
      <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUV420P_YUVYV12.cginc" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Desktop.shader" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Terrain-AddPass.shader" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Standard.shader" />
      <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Vuforia\Shaders\VuforiaVideoBackground.cginc" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Terrain-Fast-AddPass.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Mobile-Transparent.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Standard-Transparent.shader" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <None Include="Assets\Particulas\ParticulasMuroMar\Shaders\Underwater-Terrain-Fast.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/Github/Interfaz-AR-2018.4.5f1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
