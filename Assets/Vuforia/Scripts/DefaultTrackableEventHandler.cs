@@ -30,11 +30,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected TrackableBehaviour.Status m_PreviousStatus;
     protected TrackableBehaviour.Status m_NewStatus;
 
-    private AudioSource previousAudio;
-    private AudioSource currentAudio;
-    private GameObject previousPanel;
-    private GameObject currentPanel;
-
     #endregion // PROTECTED_MEMBER_VARIABLES
 
     #region UNITY_MONOBEHAVIOUR_METHODS
@@ -91,11 +86,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     public void AudioPlay()
     {
-        if (currentAudio.isPlaying == false &&
-            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
+        if (!GetComponentInChildren<AudioSource>().isPlaying)
 
         {
-            currentAudio.Play();
+            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Play();
             pause.gameObject.SetActive(true);
             play.gameObject.SetActive(false);
         }
@@ -103,7 +97,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     public void AudioPause()
     {
-        if (currentAudio.isPlaying)
+        if (GetComponentInChildren<AudioSource>().isPlaying)
         {
             mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Pause();
             pause.gameObject.SetActive(false);
@@ -120,6 +114,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
+        var audioComponents = GetComponentsInChildren<AudioSource>(true);
 
         // Enable rendering:
         foreach (var component in rendererComponents)
@@ -133,63 +128,23 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in canvasComponents)
             component.enabled = true;
 
+        // Enable audio':
+        foreach (var component in audioComponents)
+            component.enabled = true;
+
         // Audio play
         if (mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
         {
-            if (currentAudio == null)
+            if (!GetComponentInChildren<AudioSource>().isPlaying)
             {
-                currentAudio = mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>();
-
-                if (!currentAudio.isPlaying)
-                {
-                    currentAudio.Play();
-                }
-            }
-            else if (currentAudio == mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>())
-            {
-                if (!currentAudio.isPlaying)
-                {
-                    currentAudio.Play();
-                }
-            }
-            else if (currentAudio != null &&
-                currentAudio != mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>())
-            {
-                previousAudio = currentAudio;
-                currentAudio = mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>();
-                previousAudio.Stop();
-
-                if (!currentAudio.isPlaying)
-                {
-                    currentAudio.Play();
-                }
+                mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Play();
             }
         }
 
         panelTarget.gameObject.SetActive(false);
         panelLocked.gameObject.SetActive(true);
-        if (currentPanel == null)
-        {
-            currentPanel = panel;
-            currentPanel.gameObject.SetActive(true);
-        }
-        else if (currentPanel == panel)
-        {
-            currentPanel.gameObject.SetActive(true);
-        }
-        else if(currentPanel != null && currentPanel != panel)
-        {
-            currentPanel.gameObject.SetActive(false);
-            previousPanel = currentPanel;
-            previousPanel.gameObject.SetActive(false);
-            currentPanel = panel;
-            currentPanel.gameObject.SetActive(true);
-        }
-        else
-        {
-            previousPanel.gameObject.SetActive(false);
-            currentPanel.gameObject.SetActive(false);
-        }
+        panel.gameObject.SetActive(true);
+
     }
 
 
@@ -198,6 +153,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
+        var audioComponents = GetComponentsInChildren<AudioSource>(true);
 
         // Disable rendering:
         foreach (var component in rendererComponents)
@@ -211,15 +167,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in canvasComponents)
             component.enabled = false;
 
-        // Audio stop
-       /* if (mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
-        {
-            //Funcion para detener el audio
-            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Stop();
-        }*/
+        // Enable audio':
+        foreach (var component in audioComponents)
+            component.enabled = false;
 
         panelTarget.gameObject.SetActive(true);
         panelLocked.gameObject.SetActive(false);
+        panel.gameObject.SetActive(false);
+
     }
 
     #endregion // PROTECTED_METHODS
