@@ -13,11 +13,11 @@ public class LoadTest : MonoBehaviour {
 
     private AsyncOperation asyn;
 
-    private void Awake()
+    /*private void Awake()
     {
         loadBar.value = 0f;
         
-    }
+    }*/
 
     public void ClickCarga()
     {
@@ -27,11 +27,15 @@ public class LoadTest : MonoBehaviour {
 
     IEnumerator LoadSlider()
     {
-        //asyn = SceneManager.LoadSceneAsync("Camara");
+        asyn = SceneManager.LoadSceneAsync("Camara");
 
-        while (loadBar.value <= 100) //  !asyn.isDone
+        while (!asyn.isDone)
         {
-            //Debug.Log(asyn.allowSceneActivation);
+            Mathf.Clamp01(asyn.progress / 0.9f);
+            yield return null;
+        }
+        /*while (loadBar.value <= 100) //  !asyn.isDone
+        {
             speed = speed + 1;
             loadBar.value = speed; //Mathf.Clamp01(asyn.progress / 0.9f)
             charge.text = loadBar.value.ToString() + "%";
@@ -40,6 +44,6 @@ public class LoadTest : MonoBehaviour {
                 Application.LoadLevel("Camara");
             }
             yield return null;
-        }
+        }*/
     }
 }
