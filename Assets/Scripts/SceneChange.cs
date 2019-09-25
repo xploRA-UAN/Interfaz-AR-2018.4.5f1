@@ -11,7 +11,7 @@ public partial class SceneChange : MonoBehaviour {
 
 public partial class SceneChange : MonoBehaviour{
 
-	public void Exit(){
+	public void Init(){
 		Application.LoadLevel("Inicio");
 	}
 }
@@ -38,5 +38,14 @@ public partial class SceneChange : MonoBehaviour
     public void Recorridos()
     {
         Application.LoadLevel("Recorridos");
+    }
+}
+
+public partial class SceneChange : MonoBehaviour
+{
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 }

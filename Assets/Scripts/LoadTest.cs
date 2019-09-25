@@ -29,7 +29,7 @@ public class LoadTest : MonoBehaviour {
     {
         asyn = SceneManager.LoadSceneAsync("Camara");
 
-        while (!asyn.isDone)
+       while (!asyn.isDone)
         {
             Mathf.Clamp01(asyn.progress / 0.9f);
             yield return null;

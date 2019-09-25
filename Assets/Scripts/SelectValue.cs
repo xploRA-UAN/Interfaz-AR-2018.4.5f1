@@ -22,10 +22,22 @@ public class SelectValue : MonoBehaviour {
             paseo.SetActive(false);
             murales.SetActive(true);
         }
-        else
+        else if (value == "L")
         {
             paseo.SetActive(true);
             murales.SetActive(true);
+        }
+    }
+
+    public void Scene()
+    {
+        if (value == "Recorridos")
+        {
+            Application.LoadLevel("Recorridos");
+        }
+        else if (value == "Principal")
+        {
+            Application.LoadLevel("Pantalla Principal");
         }
     }
 }
