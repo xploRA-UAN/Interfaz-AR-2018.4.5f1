@@ -44,6 +44,15 @@ public partial class SceneChange : MonoBehaviour
 public partial class SceneChange : MonoBehaviour
 {
 
+    public void Mapa()
+    {
+        Application.LoadLevel("Mapa");
+    }
+}
+
+public partial class SceneChange : MonoBehaviour
+{
+
     public void Exit()
     {
         Application.Quit();

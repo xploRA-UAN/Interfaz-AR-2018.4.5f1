@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Pantalla Principal.unity
     guid: 5cc8620c62981b343a142b823a813df7
   - enabled: 1
+    path: Assets/Scenes/Mapa.unity
+    guid: df4a5c8a29387eb4380a668dbf258c94
+  - enabled: 1
     path: Assets/Scenes/Recorridos.unity
     guid: d850cf69eae0bbd4db173c98081c63fc
   - enabled: 1
