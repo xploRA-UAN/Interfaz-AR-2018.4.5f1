@@ -4,46 +4,50 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/*
+ * Script to change to "Camara" scene asynchronously with 
+ * current scene(Recorridos).
+ */
+
 public class LoadTest : MonoBehaviour {
 
+    #region PUBLIC_VARIABLES
+
     public GameObject loadPanel;
-    public Slider loadBar;
-    public Text charge;
-    private float speed;
+
+    #endregion //PUBLIC_VARIABLES
+
+    #region PRIVATE_VARIABLES
 
     private AsyncOperation asyn;
 
-    /*private void Awake()
-    {
-        loadBar.value = 0f;
-        
-    }*/
+    #endregion //PRIVATE_VARIABLES
+
+    #region PUBLIC_METHODS
 
     public void ClickCarga()
     {
         loadPanel.SetActive(true);
+        //Method to call and start coroutine
         StartCoroutine(LoadSlider());
     }
 
+    #endregion //PUBLIC_METHODS
+
+    #region COROUTINES
+
     IEnumerator LoadSlider()
     {
+        //Asignation of scene change
         asyn = SceneManager.LoadSceneAsync("Camara");
 
        while (!asyn.isDone)
         {
+            //Method for asignate the value "1" to variable asyn.progress
             Mathf.Clamp01(asyn.progress / 0.9f);
             yield return null;
         }
-        /*while (loadBar.value <= 100) //  !asyn.isDone
-        {
-            speed = speed + 1;
-            loadBar.value = speed; //Mathf.Clamp01(asyn.progress / 0.9f)
-            charge.text = loadBar.value.ToString() + "%";
-            if (loadBar.value == 100)
-            {
-                Application.LoadLevel("Camara");
-            }
-            yield return null;
-        }*/
     }
+
+    #endregion //COROUTINES
 }

@@ -3,16 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * Script for the selection of info text
+ * after activate LoadPanel in "Recorridos" scene.
+ */
+
 public class RandomText : MonoBehaviour {
+
+    #region PUBLIC_VARIABLES
 
     public Text texto;
 
+    #endregion //PUBLIC_VARIABLES
+
+    #region PRIVATE_VARIABLES
+
     private int random;
+
+    #endregion //PRIVATE_VARIABLES
+
+    #region PRIVATE_METHODS
 
     private void Awake()
     {
         random = 0;
     }
+
+    #endregion //PRIVATE_METHODS
+
+    #region PUBLIC_METHODS
 
     public void RandomValue()
     {
@@ -34,4 +53,6 @@ public class RandomText : MonoBehaviour {
                 break;
         }
     }
+
+    #endregion //PUBLIC_METHODS
 }

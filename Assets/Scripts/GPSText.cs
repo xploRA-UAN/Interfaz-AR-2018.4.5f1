@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * Unused Temporally
+ */
+
 public class GPSText : MonoBehaviour {
 
 	//varibles

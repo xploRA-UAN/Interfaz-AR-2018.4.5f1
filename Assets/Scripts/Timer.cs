@@ -2,34 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Script for change scene after timer finish.
+ */
+
 public class Timer : MonoBehaviour {
+
+    #region PRIVATE_VARIABLES
 
     private float iniTime = 0.0f;
 
-    /*public GameObject años;
-    public GameObject escudo;
-    public GameObject logo;*/
+    #endregion //PRIVATE_VARIABLES
+
+    #region PUBLIC_VARIABLES
+
     public float endTime;
-	
-	// Update is called once per frame
-	void Update () {
+
+    #endregion //PUBLIC_VARIABLES
+
+    #region PRIVATE_METHODS
+
+    // Update is called once per frame
+    void Update () {
         iniTime += Time.deltaTime;
 
-        /*if (iniTime >= 4.0f && iniTime <= 7.9f)
-        {
-            años.SetActive(false);
-            escudo.SetActive(true);
-            logo.SetActive(false);
-        }
-        else if (iniTime >= 8.0f && iniTime <= endTime)
-        {
-            años.SetActive(false);
-            escudo.SetActive(false);
-            logo.SetActive(true);
-        }
-        else*/ if (iniTime >= endTime)
+        if (iniTime >= endTime)
         {
             Application.LoadLevel("Inicio");
         }
 	}
+
+    #endregion //PRIVATE_METHODS
 }

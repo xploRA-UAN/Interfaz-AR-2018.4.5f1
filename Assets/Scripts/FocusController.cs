@@ -3,10 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
+/*
+ * Script to Camera Focus Control.
+ */
+
 public class FocusController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    #region PRIVATE_METHODS
+
+    // Use this for initialization
+    void Start () {
 		var vuforia = VuforiaARController.Instance;    
 		vuforia.RegisterVuforiaStartedCallback(OnVuforiaStarted);    
 		vuforia.RegisterOnPauseCallback(OnPaused);
@@ -23,4 +29,6 @@ public class FocusController : MonoBehaviour {
        		CameraDevice.Instance.SetFocusMode(CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);    
   		}
  	}
+
+    #endregion //PRIVATE_METHODS
 }

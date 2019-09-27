@@ -2,18 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * This Script is used to send the String type value of the "value" variable to SelectValue script.
+ */
+
 public class SaveValue : MonoBehaviour {
+
+    #region PRIVATE_VARIABLES
 
     public static string value = " ";
 
-    // Use this for initialization
+    #endregion //PRIVATE_VARIABLES
+
+    #region PRIVATE_METHODS
 
     void Awake()
     {
+        //Method for dont destroy the game object called value when change scene
         DontDestroyOnLoad(gameObject);
         value = null;
     }
 
+    #endregion //PRIVATE_METHODS
+
+    #region PUBLIC_METHODS
+
+    //"Recorridos" and "Principal" method's to used in "Camara" scene
     public void Paseo()
     {
         value = "P";
@@ -29,6 +43,7 @@ public class SaveValue : MonoBehaviour {
         value = "L";
     }
 
+    //"Recorridos" and "Principal" method's to used in "About" scene
     public void Recorridos()
     {
         value = "Recorridos";
@@ -38,4 +53,6 @@ public class SaveValue : MonoBehaviour {
     {
         value = "Principal";
     }
+
+    #endregion //PUBLIC_METHODS
 }

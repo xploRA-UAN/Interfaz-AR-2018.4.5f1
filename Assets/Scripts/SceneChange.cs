@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * This script is used for scene management.
+ */
+
 public partial class SceneChange : MonoBehaviour {
 
 	public void MainScene(){

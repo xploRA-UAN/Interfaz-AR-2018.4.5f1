@@ -2,12 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Script for make visible a background of Info Panel 
+ * in "Pantalla Principal" scene.
+ */
+
 public class RandomImage : MonoBehaviour {
+
+    #region PUBLIC_VARIABLES
 
     public GameObject fondoA;
     public GameObject fondoB;
 
+    #endregion //PUBLIC_VARIABLES
+
+    #region PRIVATE_VARIABLES
+
     private int random;
+
+    #endregion //PRIVATE_VARIABLES
+
+    #region PRIVATE_METHODS
 
     private void Awake()
     {
@@ -16,7 +31,10 @@ public class RandomImage : MonoBehaviour {
         fondoB.SetActive(false);
     }
 
-    // Update is called once per frame
+    #endregion //PRIVATE_METHODS
+
+    #region PUBLIC_METHODS
+
     public void RandomValue()
     {
         random = Random.Range(1, 3);
@@ -32,4 +50,6 @@ public class RandomImage : MonoBehaviour {
             fondoA.SetActive(false);
         }
     }
+
+    #endregion //PUBLIC_METHODS
 }
