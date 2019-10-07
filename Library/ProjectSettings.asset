@@ -244,7 +244,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: E:/Github/Interfaz-AR-2018.4.5f1/user.keystore
+  AndroidKeystoreName: D:/Github/Interfaz-AR-2018.4.5f1/user.keystore
   AndroidKeyaliasName: xplora
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -745,10 +745,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 94db9197-ff1d-4c4f-aeb2-d5a06c01fc2a
+  cloudProjectId: 860cc5c9-d0f5-4cf8-847c-b7d2f4b38e80
   framebufferDepthMemorylessMode: 0
-  projectName: ExploRAUAN (3)
-  organizationId: unity_bupbk_sumnvs2w
+  projectName: ExploRAUAN (1)
+  organizationId: alabariciaz
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
