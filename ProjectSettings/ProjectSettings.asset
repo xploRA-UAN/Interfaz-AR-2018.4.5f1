@@ -725,6 +725,10 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Build: 0
+    Collab: 0
+    ErrorHub: 0
+    Hub: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -745,10 +749,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 860cc5c9-d0f5-4cf8-847c-b7d2f4b38e80
+  cloudProjectId: e7b4cad0-e7e0-4c7b-8250-89e790a36259
   framebufferDepthMemorylessMode: 0
-  projectName: ExploRAUAN (1)
-  organizationId: alabariciaz
+  projectName: ExploRAUAN (7)
+  organizationId: zamorano0695
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
