@@ -28,10 +28,10 @@ VideoClipImporter:
     7:
       enableTranscoding: 1
       codec: 0
-      resizeFormat: 0
+      resizeFormat: 7
       aspectRatio: 0
-      customWidth: 1280
-      customHeight: 720
+      customWidth: 800
+      customHeight: 450
       bitrateMode: 2
       spatialQuality: 2
   userData: 
