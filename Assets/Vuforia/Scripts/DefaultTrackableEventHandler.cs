@@ -18,13 +18,17 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
-    #region PROTECTED_MEMBER_VARIABLES
+    #region PUBLIC_VARIABLES
 
     public Transform panelTarget;
     public Transform panelLocked;
-    public Button play;
-    public Button pause;
     public GameObject panel;
+    public AudioSource spanishAudio;
+    public AudioSource englishAudio;
+   
+    #endregion //PUBLIC_VARIABLES
+
+    #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
     protected TrackableBehaviour.Status m_PreviousStatus;
@@ -84,24 +88,21 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         }
     }
 
-    public void AudioPlay()
+    public void EnglishAudio()
     {
-        if (!GetComponentInChildren<AudioSource>().isPlaying)
-
+        if (!englishAudio.isPlaying)
         {
-            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Play();
-            pause.gameObject.SetActive(true);
-            play.gameObject.SetActive(false);
+            englishAudio.Play();
+            spanishAudio.Stop();
         }
     }
 
-    public void AudioPause()
+    public void SpanishAudio()
     {
-        if (GetComponentInChildren<AudioSource>().isPlaying)
+        if (!spanishAudio.isPlaying)
         {
-            mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Pause();
-            pause.gameObject.SetActive(false);
-            play.gameObject.SetActive(true);
+            spanishAudio.Play();
+            englishAudio.Stop();
         }
     }
 
@@ -132,19 +133,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in audioComponents)
             component.enabled = true;
 
-        // Audio play
-        if (mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>() != null)
+        if (!spanishAudio.isPlaying)
         {
-            if (!GetComponentInChildren<AudioSource>().isPlaying)
-            {
-                mTrackableBehaviour.gameObject.GetComponentInChildren<AudioSource>().Play();
-            }
+            spanishAudio.Play();
         }
 
         panelTarget.gameObject.SetActive(false);
         panelLocked.gameObject.SetActive(true);
         panel.gameObject.SetActive(true);
-
     }
 
 
