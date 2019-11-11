@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -999,7 +999,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31190
+  m_Name: ImageTargetMesh30616
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1162,7 +1162,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'Muro_del_mar2_modelo2Material
 
-    30732'
+    30156'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1453,6 +1453,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 45582595}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &47431069
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '27Material
+
+    30216'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 628eeddbabea4bb09f726d22166326e4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &50172763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,7 +1566,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31156
+  m_Name: ImageTargetMesh30584
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1766,7 +1794,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'el_hombre_y_la_Quimica_modelo2Material
 
-    27876'
+    27290'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3818,7 +3846,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '03Material
 
-    33020'
+    32428'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -3961,7 +3989,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh33010
+  m_Name: ImageTargetMesh32418
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -4877,34 +4905,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 134554880}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &135854570
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Sin_nombre_odontologia1Material
-
-    124164'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 358895879ade49179ae3a5441b2ca2a4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &136400999
 GameObject:
   m_ObjectHideFlags: 0
@@ -5238,7 +5238,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'odontologia_al_servicio_del_hombre_modelo11Material
 
-    31770'
+    31196'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -6307,7 +6307,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '13Material
 
-    31220'
+    30646'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -6391,6 +6391,34 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 49a8a2dea5cf3426492ba9743d7a539d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2051cc1b47ab2645b85b90ff5a5efd6, type: 3}
+--- !u!21 &155632918
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '28Material
+
+    30034'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3282ce84250c4edea24b3d64a3e54cef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1001 &155784778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6460,34 +6488,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: b280d643fd5c740dfac76cb9c57b9e3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81cdfb2650ffbe448c784945e1c9425, type: 3}
---- !u!21 &160436806
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'muro_del_fuego_modelo22Material
-
-    128790'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5df91f685af74024870680d9b607abd6, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &160515182
 GameObject:
   m_ObjectHideFlags: 0
@@ -7206,9 +7206,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '30Material
+  m_Name: 'Sin_nombre_odontologia1Material
 
-    183982'
+    29620'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -7221,7 +7221,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 58430fe4ccff4c56a9b58443f4577eab, type: 3}
+        m_Texture: {fileID: 2800000, guid: 358895879ade49179ae3a5441b2ca2a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -7763,7 +7763,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1339554302}
+  - {fileID: 1928110524}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8096,7 +8096,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31210
+  m_Name: ImageTargetMesh30636
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -8259,7 +8259,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '22Material
 
-    31602'
+    31028'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -8366,7 +8366,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'muro_de_la_carne_modelo21Material
 
-    32378'
+    31802'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -8394,7 +8394,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '04Material
 
-    32340'
+    31764'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -8419,7 +8419,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29796
+  m_Name: ImageTargetMesh29200
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -10155,9 +10155,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '26Material
+  m_Name: 'muro_apocalipsis_modelo21Material
 
-    187280'
+    28674'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -10170,7 +10170,35 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f24889ad15f44454b7b2f378670f4f8e, type: 3}
+        m_Texture: {fileID: 2800000, guid: d8861f80d94f4f5cb6ad18f3cab6b98a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+--- !u!21 &256127884
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '30Material
+
+    27866'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 58430fe4ccff4c56a9b58443f4577eab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -10336,7 +10364,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh28446
+  m_Name: ImageTargetMesh27856
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11159,7 +11187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 915852093}
+  - {fileID: 1085521380}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12885,7 +12913,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 180413885}
+  - {fileID: 256127884}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13135,34 +13163,6 @@ Transform:
   m_Father: {fileID: 90326604}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &323878042
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'DERECHO1Material
-
-    124652'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: db6ebea02e204c90a49210957de9ed4d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &325177043
 GameObject:
   m_ObjectHideFlags: 0
@@ -13329,7 +13329,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30784
+  m_Name: ImageTargetMesh30206
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -13649,7 +13649,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29494
+  m_Name: ImageTargetMesh28888
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14030,7 +14030,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh27892
+  m_Name: ImageTargetMesh27306
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14851,7 +14851,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30740
+  m_Name: ImageTargetMesh30164
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -16291,7 +16291,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh27942
+  m_Name: ImageTargetMesh27354
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -17047,7 +17047,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30202
+  m_Name: ImageTargetMesh29612
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -17280,6 +17280,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442539699}
   m_CullTransparentMesh: 0
+--- !u!21 &443052422
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'escudo_de_la_uan_modelo1Material
+
+    31294'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7bf854a32cf340aeb8cf223edc26c21e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!4 &444886690 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 52f06e4987bad1d4e99ef54e143ac0b4,
@@ -19059,7 +19087,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '23Material
 
-    30964'
+    30384'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19162,7 +19190,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'intervencion_a_panama_modelo1Material
 
-    32240'
+    31664'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19890,7 +19918,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '16Material
 
-    30546'
+    29958'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -20112,7 +20140,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32232
+  m_Name: ImageTargetMesh31656
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -20654,7 +20682,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '20Material
 
-    27972'
+    27384'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -21115,7 +21143,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '01Material
 
-    32658'
+    32076'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -21450,7 +21478,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'mural_setuan_2_completo_21Material
 
-    29230'
+    28632'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -22866,34 +22894,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 584562141}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &584694784
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'mural_principal_medicina_der_modelo1Material
-
-    127832'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 58dc967a0627486b8a8f343a72177d34, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1001 &586207355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23469,7 +23469,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1120914416}
+  - {fileID: 627609869}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24488,7 +24488,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29968
+  m_Name: ImageTargetMesh29368
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -24651,7 +24651,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'muro_del_agua_modelo22Material
 
-    30324'
+    29736'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -24991,7 +24991,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1508279795}
+  - {fileID: 252640336}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25443,9 +25443,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '28Material
+  m_Name: 'medicina_centralMaterial
 
-    191490'
+    28586'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -25458,7 +25458,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3282ce84250c4edea24b3d64a3e54cef, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1e25390f562e47fe8b0f298076904844, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -25630,7 +25630,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31654
+  m_Name: ImageTargetMesh31078
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -26760,7 +26760,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31974
+  m_Name: ImageTargetMesh31396
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -27250,7 +27250,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 252640336}
+  - {fileID: 2086549598}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28187,7 +28187,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1407076334}
+  - {fileID: 915852093}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -28511,7 +28511,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32294
+  m_Name: ImageTargetMesh31718
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -29159,7 +29159,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30604
+  m_Name: ImageTargetMesh30024
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -30099,7 +30099,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29220
+  m_Name: ImageTargetMesh28622
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -30648,7 +30648,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30402
+  m_Name: ImageTargetMesh29814
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -31171,7 +31171,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '19Material
 
-    30460'
+    29872'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -31826,7 +31826,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32648
+  m_Name: ImageTargetMesh32066
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -32196,7 +32196,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30536
+  m_Name: ImageTargetMesh29948
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -33541,7 +33541,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29518
+  m_Name: ImageTargetMesh28914
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -35701,7 +35701,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '06Material
 
-    32180'
+    31598'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -36051,9 +36051,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '27Material
+  m_Name: 'mural_principal_medicina_der_modelo1Material
 
-    192102'
+    30696'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -36066,7 +36066,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 628eeddbabea4bb09f726d22166326e4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 58dc967a0627486b8a8f343a72177d34, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -37061,7 +37061,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29886
+  m_Name: ImageTargetMesh29288
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -37221,7 +37221,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh28902
+  m_Name: ImageTargetMesh28310
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -37450,7 +37450,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30722
+  m_Name: ImageTargetMesh30146
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -37604,6 +37604,34 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!21 &907223393
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '29Material
+
+    32220'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b76061669dec4e12a0ce622f73017392, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &907642729
 GameObject:
   m_ObjectHideFlags: 0
@@ -37647,7 +37675,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30298
+  m_Name: ImageTargetMesh29710
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -37948,9 +37976,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '24Material
+  m_Name: 'por_lo_nuestro_modelo1Material
 
-    183610'
+    28896'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -37963,7 +37991,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d5d0b7f5f5634cf183cc3bc3433d1e3f, type: 3}
+        m_Texture: {fileID: 2800000, guid: a12b01c4d73746f69f5df637c5133d5b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -38439,7 +38467,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh28678
+  m_Name: ImageTargetMesh28094
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -39987,7 +40015,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh28812
+  m_Name: ImageTargetMesh28220
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -40318,7 +40346,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 135854570}
+  - {fileID: 180413885}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -40461,7 +40489,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31020
+  m_Name: ImageTargetMesh30444
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -40673,7 +40701,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'mural_prepa1_modelo1Material
 
-    28688'
+    28104'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -40833,7 +40861,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32170
+  m_Name: ImageTargetMesh31588
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -41832,7 +41860,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 323878042}
+  - {fileID: 1139896760}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -42975,7 +43003,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30954
+  m_Name: ImageTargetMesh30374
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -44673,6 +44701,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083427732}
   m_CullTransparentMesh: 0
+--- !u!21 &1085521380
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '24Material
+
+    27734'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d5d0b7f5f5634cf183cc3bc3433d1e3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1086327740
 GameObject:
   m_ObjectHideFlags: 0
@@ -44837,7 +44893,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30314
+  m_Name: ImageTargetMesh29726
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -45082,7 +45138,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31762
+  m_Name: ImageTargetMesh31188
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -45321,7 +45377,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32144
+  m_Name: ImageTargetMesh31564
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -45890,7 +45946,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29940
+  m_Name: ImageTargetMesh29340
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -46382,34 +46438,6 @@ Transform:
   m_Father: {fileID: 422407723}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1120914416
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'medicina_centralMaterial
-
-    120564'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1e25390f562e47fe8b0f298076904844, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1001 &1125117873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46516,7 +46544,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'El_Hombre_y_la_CienciaMaterial
 
-    29806'
+    29210'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -46742,7 +46770,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29258
+  m_Name: ImageTargetMesh28664
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -47008,7 +47036,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 627609869}
+  - {fileID: 155632918}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -47428,34 +47456,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137988200}
   m_CullTransparentMesh: 0
---- !u!21 &1139704390
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'escudo_de_la_uan_modelo1Material
-
-    129610'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7bf854a32cf340aeb8cf223edc26c21e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!21 &1139896760
 Material:
   serializedVersion: 6
@@ -47463,9 +47463,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '29Material
+  m_Name: 'DERECHO1Material
 
-    198700'
+    29720'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -47478,7 +47478,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b76061669dec4e12a0ce622f73017392, type: 3}
+        m_Texture: {fileID: 2800000, guid: db6ebea02e204c90a49210957de9ed4d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -47490,7 +47490,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh27866
+  m_Name: ImageTargetMesh27280
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -49732,7 +49732,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 866950288}
+  - {fileID: 47431069}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -50079,7 +50079,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh28312
+  m_Name: ImageTargetMesh27724
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -50371,7 +50371,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'muro_del_sol_modelo2Material
 
-    29950'
+    29350'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -51447,7 +51447,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31610
+  m_Name: ImageTargetMesh31036
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -52628,7 +52628,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29424
+  m_Name: ImageTargetMesh28824
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -53382,7 +53382,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '12Material
 
-    29978'
+    29378'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -53639,7 +53639,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cdf8ca58b453e0f42a6c490984ffd482, type: 3}
+  m_audioClip: {fileID: 8300000, guid: efaf1bcb3d46f044b9869621da543393, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -53815,7 +53815,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'muro_de_la_tierra_modelo12Material
 
-    28912'
+    28320'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -54522,7 +54522,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '21Material
 
-    31030'
+    30454'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -54676,7 +54676,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32794
+  m_Name: ImageTargetMesh32210
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -54839,7 +54839,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'El_origen_de_nuestra_cultura2_completo1Material
 
-    31664'
+    31088'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -55833,9 +55833,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '25Material
+  m_Name: 'muro_del_fuego_modelo22Material
 
-    182916'
+    31046'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -55848,7 +55848,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5214c599bf43492f8f3053fd16fb744c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5df91f685af74024870680d9b607abd6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -56804,7 +56804,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '15Material
 
-    27902'
+    27316'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -57252,7 +57252,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 584694784}
+  - {fileID: 866950288}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -57840,7 +57840,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'muro_del_aire_modelo22Material
 
-    29696'
+    29098'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -58405,7 +58405,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32730
+  m_Name: ImageTargetMesh32144
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -59636,34 +59636,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: acc7d743a12794a5bbce34c37adb5bcc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3db8778f46979f24d8db4cbe59d03cb3, type: 3}
---- !u!21 &1407076334
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'por_lo_nuestro_modelo1Material
-
-    121676'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a12b01c4d73746f69f5df637c5133d5b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1407635331
 GameObject:
   m_ObjectHideFlags: 0
@@ -61838,7 +61810,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 160436806}
+  - {fileID: 1339554302}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -62328,7 +62300,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32368
+  m_Name: ImageTargetMesh31792
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -63506,7 +63478,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'Mural_Medicina_IzquierdaMaterial
 
-    27952'
+    27364'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -64190,34 +64162,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507412910}
   m_CullTransparentMesh: 0
---- !u!21 &1508279795
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'muro_apocalipsis_modelo21Material
-
-    120824'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d8861f80d94f4f5cb6ad18f3cab6b98a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1001 &1510682631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64302,7 +64246,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'mural_setuan_1_complato2Material
 
-    30748'
+    30172'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -64639,7 +64583,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '11Material
 
-    28744'
+    28156'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -65528,7 +65472,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1139704390}
+  - {fileID: 443052422}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -66388,7 +66332,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '17Material
 
-    32740'
+    32154'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -67329,7 +67273,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '08Material
 
-    32154'
+    31574'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -67838,7 +67782,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31592
+  m_Name: ImageTargetMesh31018
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -70528,7 +70472,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '02Material
 
-    32304'
+    31728'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -70553,7 +70497,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32330
+  m_Name: ImageTargetMesh31754
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -70713,7 +70657,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh30450
+  m_Name: ImageTargetMesh29862
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -74430,7 +74374,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '09Material
 
-    32260'
+    31684'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -74661,7 +74605,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31858
+  m_Name: ImageTargetMesh31286
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -74824,7 +74768,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '07Material
 
-    28822'
+    28230'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -75585,7 +75529,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh28734
+  m_Name: ImageTargetMesh28146
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -76598,7 +76542,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh27962
+  m_Name: ImageTargetMesh27374
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -76758,7 +76702,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh31258
+  m_Name: ImageTargetMesh30686
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -78479,7 +78423,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh28080
+  m_Name: ImageTargetMesh27492
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -79199,7 +79143,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'muro_igualdad_en_el_comercio_modelo31Material
 
-    31164'
+    30592'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -79359,7 +79303,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '05Material
 
-    29528'
+    28924'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -79706,7 +79650,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1139896760}
+  - {fileID: 907223393}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80573,6 +80517,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1927871529}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1928110524
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '25Material
+
+    27502'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5214c599bf43492f8f3053fd16fb744c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1932059872
 GameObject:
   m_ObjectHideFlags: 0
@@ -81144,7 +81116,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29686
+  m_Name: ImageTargetMesh29088
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -81936,7 +81908,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '18Material
 
-    31984'
+    31406'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -83191,7 +83163,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29150
+  m_Name: ImageTargetMesh28558
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -83729,7 +83701,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'dedicatoria_al_pueblo_y_a_los_estudiantesMaterial
 
-    31200'
+    30626'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -84911,7 +84883,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '10Material
 
-    29160'
+    28568'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -85160,7 +85132,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'TURI1Material
 
-    30412'
+    29824'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -85645,7 +85617,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh29170
+  m_Name: ImageTargetMesh28576
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -86211,6 +86183,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083888578}
   m_CullTransparentMesh: 0
+--- !u!21 &2086549598
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '26Material
+
+    28834'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f24889ad15f44454b7b2f378670f4f8e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!21 &2091178268
 Material:
   serializedVersion: 6
@@ -86220,7 +86220,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: '14Material
 
-    29896'
+    29298'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -87148,7 +87148,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh32250
+  m_Name: ImageTargetMesh31674
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
