@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7297,7 +7297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &187384567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8081,7 +8081,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &200322408
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15822,7 +15822,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &400544385
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19576,7 +19576,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &497548622
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20433,7 +20433,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &517560263
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38986,7 +38986,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &943400968
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45931,7 +45931,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &1108569278
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50553,7 +50553,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &1216126041
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -51883,7 +51883,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &1247687874
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -53235,7 +53235,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &1276620320
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -59706,7 +59706,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &1407635334
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -87645,7 +87645,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ing\xE9s"
+  m_Text: "Ingl\xE9s"
 --- !u!222 &2119763835
 CanvasRenderer:
   m_ObjectHideFlags: 0
